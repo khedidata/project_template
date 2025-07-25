@@ -20,40 +20,27 @@ Welcome to a ready-to-use template for Python Data Science projects, powered by 
 
 ### 1. 📦 Clone the Template Repository
 
-___
-
 ```bash
 git clone https://github.com/khedidata/project_template.git my_new_project
 cd my_new_project
 ```
-***
 
 ### 2. 💻 (Optional) Open the project in VS Code
 code .
 
-***
-
 ### 3. 🐍 Create a virtual environment with uv
 uv venv
-
-***
 
 ### 4. ⚙️ Activate the virtual environment
 - On Windows (PowerShell) : `.venv\Scripts\Activate.ps1` or `.venv\Scripts\activate`
 
 - On macOS/Linux : `source .venv/bin/activate`
 
-***
-
 ### 5. 📥 Install dependencies (direct dependencies only)
 uv pip install -r requirements.txt
 
-***
-
 ### 6. ➕ Add a new package (example: torch)
 uv add torch
-
-***
 
 ### 7. 📤 (Optional) Update the exported list of direct dependencies
 python dependencies.py
